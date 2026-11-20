@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ali Asadi – Resume</title>
+<style>
+  @page { size: A4; margin: 11mm 14mm; }
+  :root { --navy: #1f3864; --text: #222; --muted: #555; }
+  * { box-sizing: border-box; }
+  body { font-family: "Lato", "Carlito", "Helvetica Neue", Arial, sans-serif; color: var(--text); font-size: 9.3pt; line-height: 1.38; margin: 0; }
+  header { text-align: center; margin-bottom: 8pt; }
+  h1 { color: var(--navy); font-size: 21pt; letter-spacing: 1.5pt; margin: 0; }
+  .title { color: var(--navy); font-size: 11.5pt; margin: 1pt 0 3pt; }
+  .contact { font-size: 9pt; }
+  .contact a { color: var(--navy); }
+  .sep { margin: 0 6pt; color: #888; }
+  h2 { color: var(--navy); font-size: 10pt; letter-spacing: 1.2pt; text-transform: uppercase; border-bottom: 1.4pt solid var(--navy); padding-bottom: 2pt; margin: 9pt 0 4pt; }
+  p { margin: 0; }
+  ul { margin: 2pt 0 0; padding-left: 13pt; }
+  li { margin-bottom: 1.6pt; }
+  .role { display: flex; justify-content: space-between; margin-top: 5pt; font-weight: 700; }
+  .role span { font-weight: 400; font-size: 9pt; }
+  .org { font-style: italic; color: var(--muted); font-size: 9pt; }
+  .skills li { margin-bottom: 1pt; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ALI ASADI</h1>
+  <div class="title">Senior iOS Engineer</div>
+  <div class="contact">
+    Open to relocation<span class="sep">|</span>asadi.0241@gmail.com<span class="sep">|</span><a href="https://linkedin.com/in/ali-asadi">linkedin.com/in/ali-asadi</a><span class="sep">|</span><a href="https://github.com/Ali-Asadi-Dev">github.com/Ali-Asadi-Dev</a>
+  </div>
+</header>
+
+<h2>Summary</h2>
+<p>iOS engineer with <b>9 years</b> in native Swift, now <b>tech lead</b> for iOS across the three squads of a <b>20M+ user</b> super-app built on <b>41 Swift packages</b>. Owns architecture and code review while still shipping: <b>600K+ transactions a day</b>, <b>$60M+ a year</b> in payment volume. Uses AI-assisted development to deliver in days what used to take weeks.</p>
+
+<h2>Engineering Expertise</h2>
+<ul class="skills">
+  <li><b>Languages:</b> Swift, Objective-C</li>
+  <li><b>UI Development:</b> UIKit, SwiftUI, Auto Layout, Storyboards/XIB, Custom UI Components, RTL, Animations (Lottie)</li>
+  <li><b>Architecture:</b> VIPER + Coordinator, Modular Architecture (Swift Package Manager), Clean Architecture, MVVM-C, The Composable Architecture (TCA), Protocol-Oriented Programming</li>
+  <li><b>Concurrency:</b> Swift Concurrency (async/await, Task, actors), Combine</li>
+  <li><b>Security:</b> RSA (SecKey), Keychain, encrypted payloads</li>
+  <li><b>Networking:</b> REST APIs, JSON, URLSession, WebSockets</li>
+  <li><b>Data &amp; Storage:</b> Core Data, Realm, Offline-first sync</li>
+  <li><b>Testing &amp; Profiling:</b> XCTest, XCUITest, Maestro, Instruments</li>
+  <li><b>Product Analytics:</b> Event analytics, A/B testing, experimentation</li>
+  <li><b>AI Tooling:</b> Claude, agent workflows</li>
+  <li><b>Delivery:</b> Git (multi-repo), GitLab CI, Fastlane, App Store releases</li>
+  <li><b>Web:</b> JavaScript, React</li>
+</ul>
+
+<h2>Professional Experience</h2>
+<div class="role">Senior iOS Engineer, Tech Lead <span>Jul 2025 – Present</span></div>
+<div class="org">Hafhashtad Super App &nbsp;|&nbsp; Banking and payments</div>
+<ul>
+  <li>Set iOS architecture and review standards across the <b>3 squads</b> of the tech department, in a codebase of <b>41 Swift packages</b>.</li>
+  <li>Led the V3 bank-card redesign and built the <b>card module every payment surface now shares</b>, with no host-specific code: each host passes a config and the server drives card state. Live in balance and transfer, with three more flows migrating onto it.</li>
+  <li>Took digital checks from <b>1% to over 95% success rate</b> by tracing each failure class back through the client and the clearing system behind it.</li>
+  <li>Built the encrypted transfer flow: <b>RSA public key held in the Keychain</b>, encrypted CVV2 and one-time-password payloads, with recovery paths for network timeout and invalid key.</li>
+  <li>Migrated the shared input components used by <b>~35 feature packages</b> in place, keeping the public API and making new behavior opt-in so roughly 30 other screens did not regress.</li>
+  <li>Built an <b>agent workflow</b> that reads a design from Figma, implements the screen in Xcode, then builds, runs, and drives the app to that screen to check the result against the design.</li>
+</ul>
+
+<div class="role">Senior iOS Engineer <span>Jan 2022 – Jul 2025 · 3 yrs 7 mos</span></div>
+<div class="org">SolidICT &nbsp;|&nbsp; Product agency, 5-person iOS team</div>
+<ul>
+  <li>Migrated <b>70% of the codebase from Objective-C to Swift</b>, modernizing a live app one area at a time.</li>
+  <li>Traced UI lag to memory leaks with <b>Instruments</b> and fixed them, removing the stutter from the affected screens.</li>
+  <li>Split the codebase into independent feature and core packages, removing dependency cycles and unnecessary imports.</li>
+  <li>Mentored <b>4 engineers</b> through code review and pairing, setting the code quality bar for the iOS team.</li>
+  <li>Developed the <b>Turkcell</b> mobile operator app from scratch, and MomsCo for the MyBaby brand, each reaching <b>400K+ installs</b>.</li>
+</ul>
+
+<div class="role">iOS Developer <span>Dec 2017 – Dec 2021 · 4 yrs</span></div>
+<div class="org">Behin Sayar &nbsp;|&nbsp; Ride-hailing and university platforms</div>
+<ul>
+  <li>Built <b>two production iOS apps</b> from scratch, customer and driver, covering networking, auth, local storage, and maps.</li>
+  <li>Built the <b>real-time location pipeline</b>: pickup matching, live route drawing, and continuous driver tracking during active rides.</li>
+  <li>Wrote <b>two React PWAs</b> for students and faculty, used across a national university network.</li>
+</ul>
+
+<h2>Education</h2>
+<p>Bachelor's Degree in Computer Engineering, Sufi University</p>
+</body>
+</html>
