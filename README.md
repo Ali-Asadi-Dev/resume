@@ -8,7 +8,7 @@
 
 ## Summary
 
-iOS engineer with **9 years** in native Swift, now **tech lead** for iOS across the three squads of a **20M+ user** super-app built on **41 Swift packages**. Owns architecture and code review while still shipping: **600K+ transactions a day**, **$60M+ a year** in payment volume. Uses AI-assisted development to deliver in days what used to take weeks.
+iOS engineer with **9 years** in native Swift, owning **iOS architecture and technical decisions** across the three squads of a **20M+ user** super-app built on **41 Swift packages**. Drives code review while still shipping: **600K+ transactions a day**, **$60M+ a year** in payment volume. Uses AI-assisted development to deliver in days what used to take weeks.
 
 ## Engineering Expertise
 
@@ -29,7 +29,7 @@ iOS engineer with **9 years** in native Swift, now **tech lead** for iOS across 
 
 ## Professional Experience
 
-### Senior iOS Engineer, Tech Lead — Hafhashtad Super App
+### Senior iOS Engineer — Hafhashtad Super App
 *Banking and payments* · **Jul 2025 – Present**
 
 - Set iOS architecture and review standards across the **3 squads** of the tech department, in a codebase of **41 Swift packages**.
